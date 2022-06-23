@@ -1,0 +1,2 @@
+#!/bin/bash
+find /var/www/my_website -type d -execcls chmod 755 {} \
