@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d ":" -f6 /etc/pass 
+cut -d: --fields=1,6 /etc/pass | sort 
