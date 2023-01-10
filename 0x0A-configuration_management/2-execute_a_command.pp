@@ -1,6 +1,6 @@
-# Execute a command
+# script to execute a command using puppet
 
-exec { 'kill-killmenow':
+exec { 'killmenow':
   command => 'pkill killmenow',
-  path    => '/usr/bin';
+  path    => '/usr/bin/'
 }
